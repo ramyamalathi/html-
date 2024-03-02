@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+           border:1px solid black ;
+           text-align: center;
+         background-color: aqua;
+
+        }
+        nav{
+            border: 1px solid black;
+            height:60px;
+            line-height: 60px;
+            text-align: center;
+            word-spacing: 200px;
+            background-color: rgb(245, 240, 255);
+        }
+        main{
+            border: 1px solid black;
+            display: flex;
+        }
+        main>section{
+            border:1px solid red;
+            height:60vh;
+         }
+         #left-side{
+            width: 30%;
+            background-color: bisque;
+         }
+         #right-side{
+            width: 70%;
+            background-color:bisque;
+
+         }
+         footer{
+            border:1px solid black ;
+            background-color: aqua;
+            text-align: center;
+
+         }
+         time{
+            background-color: blueviolet;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Times of India</h1>
+    </header>
+    <nav>Home Crime Sports Politics Weather Cinema</nav>
+    <main>
+        <section id="left-side">
+            <aside>
+                <p>Lorem ipsum dolor sit amet<mark> consectetur, adipisicing elit.</mark>
+                     Incidunt est dolores delectus<time>4:43 pm</time> nihil eligendi nobis distinctio asperiores fugit itaque 
+                     cum excepturi accusamus, reprehenderit hic quos, quas quibusdam similique! Incidunt, labore?</p>
+                     <details>
+                        <summary>Electronics</summary>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officiis illo 
+                            voluptate ullam corporis tenetur fugit eius a perferendis pariatur illum eum, neque at provident!</p>
+                     </details>
+             </aside>
+        </section>
+        <section id="right-side">
+            <article>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, sit consequuntur. 
+                Repudiandae nihil temporibus unde architecto rerum deserunt atque! Ipsam quidem ullam eius
+                 aliquid enim repellendus a maiores, necessitatibus consectetur?
+                 <figure>
+                    <img src="data:image/jpeg;base64,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" alt=""
+                    height="100px" width="100px">
+                    <figcaption>"1.1 venice,Italy</figcaption>
+                 </figure>
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, sit consequuntur. 
+                  Repudiandae nihil temporibus unde architecto rerum deserunt atque! Ipsam quidem ullam eius
+                   aliquid enim repellendus a maiores, necessitatibus consectetur?
+              </article>
+        </section>
+     </main>
+     <footer>
+        <h1>THE END</h1>
+     </footer>
+     
+    
+</body>
+</html>

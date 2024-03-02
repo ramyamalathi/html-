@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Student details</h1></legend>
+     <from action="#" method="post" autocomplete="on">
+         <lable for="fname">FName:</lable>
+         <input type="text" name="user-fname" id="fname" placeholder="Enter Firstname"   
+         autofocus 
+         required>
+         <br/>
+         <br/>
+         <lable for="lname">LastName:</lable>
+         <input type="text" name="user-lname" id="lname"  placeholder="Enter Lastname" value="smith" >
+         <br/>
+         <br/>
+         <lable for="age">Age:</lable>
+         <input type="number" name="user-age" id="age" step="2" min="1" max="30"/>
+         <br/>
+         <br/>
+         <lable for="female">Gender</lable>
+         <input type="radio" name="gender" id="male" value="male"/>Male
+         <input type="radio" name="gender" id="fmale" value="fmale"/>Female
+         <input type="radio" name="gender" id="other" value="other"/>Others
+         <br/>
+         <br/>
+         <lable for="dob">Dateofbirth</lable>
+         <input type="date" name="user-dob" id="dob">
+         <br/>
+         <br/>
+         <lable for="qualification1">Qualification:</lable>
+         <input 
+         type="checkbox"
+         name="user-qualification1"
+         id="qualification1"
+         value="Msc"
+         />M.sc 
+         <br/>
+         <br/>
+         <input 
+         type="checkbox"
+         name="user-qualification2"
+         id="qualification2"
+         value="Bsc"
+         />Bsc 
+         <br/>
+         <br/>
+         <input 
+         type="checkbox"
+         name="user-qualification3"
+         id="qualification3"
+         value="Otherqualification"
+         />Others 
+         <br/>
+         <br/>
+         <lable for="choosecourse">Choose Course:</lable>
+         <select name="user-choiceofcourse" id="choosecourse">
+            <option value="null">null</option>
+            <option value="web">Webtech</option>
+            <option value="java">Java</option>
+            <option value="sql">Sql</option>
+         </select>
+         <br/>
+         <br/>
+        <label for="mobile">Mobile:</label>
+        <input type="tel" name="user-mobile" id="mobile"/>
+        <br/>
+        <br/>
+        <lable for="email1">Email:</lable>
+        <input type="email" name="user-email" id="email"/>
+        <br/>
+        <br/>
+        <lable for="resume">Choose file</lable>
+        <input type="file" name="user-resume" id="resume"/>
+        <br/>
+        <br/>
+        <label for="address">Address:</label>
+        <br/>
+        <textarea name="user-address" id="address" cols="30" rows="5"></textarea>
+        <br/>
+        <br/>
+        <!-- <button>SUBMIT</button> --> 
+        <input type="submit" name="" id="" />
+        <input type="reset"name="" id=""/>
+ </from>
+</fieldset>
+   
+</body>
+</html>
